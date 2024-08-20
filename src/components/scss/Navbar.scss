@@ -1,15 +1,51 @@
 .navContainer {
   position: fixed;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40.5rem;
+  height: 6rem;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 30rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.7px);
+  -webkit-backdrop-filter: blur(6.7px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+
+  ul {
+    padding: 0;
+    margin-left: 1.4rem;
+  }
 
   .nav-grid {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    gap: 10rem;
+    gap: 3rem;
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
 
     li {
       list-style: none;
+    }
+
+    h1 {
+      font-family: Pretendard-Regular;
+      font-size: 1.6rem;
+      letter-spacing: 0.01rem;
+    }
+
+    .circle-border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      border: 1.2px solid #000;
     }
   }
 }
