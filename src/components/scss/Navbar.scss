@@ -1,0 +1,15 @@
+.navContainer {
+  position: fixed;
+  display: flex;
+
+  .nav-grid {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 10rem;
+
+    li {
+      list-style: none;
+    }
+  }
+}
